@@ -1,0 +1,36 @@
+body
+{
+    background-color: rgb(64, 123, 233);
+}
+
+h1
+{
+    color: darkgoldenrod;
+    background-color: cornsilk;
+}
+#show_sketch
+{
+ float: right;
+ margin-right: 100px;
+ margin-top: 2.5;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 30px;
+    animation-name: keyanimation;
+    animation-duration: 5s ;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes keyanimation  {
+    from { box-shadow: 1px 1px 38px grey;}
+        to { box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
